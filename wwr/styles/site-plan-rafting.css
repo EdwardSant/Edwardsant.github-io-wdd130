@@ -10,14 +10,14 @@
     --paragraph-font:'Poppins',serif;
     
     --headline-color-on-white: #A6243E;  
-  --headline-color-on-color: white;  
-  --paragraph-color-on-white: #A6243E; 
-  --paragraph-color-on-color: white; 
-  --paragraph-background-color:  #A6243E ;
-  --nav-link-color: white;
-  --nav-background-color:  #A6243E;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #9E5454 ;
+    --headline-color-on-color: white;  
+    --paragraph-color-on-white: #A6243E; 
+    --paragraph-color-on-color: white; 
+    --paragraph-background-color:  #A6243E ;
+    --nav-link-color: white;
+    --nav-background-color:  #A6243E;
+    --nav-hover-link-color: white;
+     --nav-hover-background-color: #9E5454 ;
  }
 
  body {
@@ -67,16 +67,16 @@ p {
   width: 25%;
   height: 3em;
 }
-.primary-color {
+.primary {
   background-color: var(--primary-color);
 }
-.secondary-color {
+.secondary {
   background-color: var(--secondary-color);
 }
-.accent1-color {
+.accent1 {
   background-color: var(--accent1-color);
 }
-.accent2-color{
+.accent2{
   background-color: var(--accent2-color);
 }
 p.colored {
