@@ -1,7 +1,6 @@
  @import url('https://fonts.googleapis.com/css2?family=Mooli&family=Open+Sans:ital@0;1&family=Roboto:ital,wght@1,300;1,400&display=swap');
 
  :root {
-  
     --primary--color:#A6243E;
     --secondary--color:#9E5454;
     --accent1--color:#B09290;
@@ -10,15 +9,11 @@
     --heading-font:'Mooli',serif;
     --paragraph-font:'Poppins',serif;
     
-    --headline-color-on-white: #A6243E;  
-    --headline-color-on-color: white;  
-    --paragraph-color-on-white: #A6243E; 
-    --paragraph-color-on-color: white; 
-    --paragraph-background-color:  #A6243E ;
-    --nav-link-color: white;
-    --nav-background-color:  #A6243E;
-    --nav-hover-link-color: white;
-     --nav-hover-background-color: #9E5454 ;
+    
+  --nav-background-color:  #A6243E;
+  --nav-link-color: white;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #9E5454 ;
  }
 
  body {
@@ -77,7 +72,7 @@ p {
 .accent1 {
   background-color: var(--accent1-color);
 }
-.accent2{
+.accent2-color{
   background-color: var(--accent2-color);
 }
 p.colored {
