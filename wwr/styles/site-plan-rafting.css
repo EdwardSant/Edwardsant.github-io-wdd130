@@ -67,16 +67,16 @@ p {
   width: 25%;
   height: 3em;
 }
-.primary {
+.primary-color {
   background-color: var(--primary-color);
 }
-.secondary {
+.secondary-color {
   background-color: var(--secondary-color);
 }
-.accent1 {
+.accent1-color {
   background-color: var(--accent1-color);
 }
-.accent2{
+.accent2-color{
   background-color: var(--accent2-color);
 }
 p.colored {
