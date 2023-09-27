@@ -6,8 +6,9 @@
 
 body{
 
+    font-size: 16px;
     font-family: 'Roboto', Arial, sans-serif;
-    background-color: #f5f5f5;
+  
 }
 
 nav {
@@ -29,7 +30,7 @@ h1 {
 }
 
 main {
-    max-width: 900px;
+    max-width: 640px;
 }
 
 main img {
@@ -78,10 +79,14 @@ footer {
 
  .box {
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0,0.1);
+    border: 1px solid rgba(0, 0, 0,.1);
     padding: 1rem;
     background-color: #eee;
     color: #000;
  }
+
+  .indent {
+    margin-left: 2rem;
+  }
 
  
