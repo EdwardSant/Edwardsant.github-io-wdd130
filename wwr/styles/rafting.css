@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Open+Sans:ital@0;1&family=Roboto:ital,wght@1,300;1,400&display=swap');
+:root {
+    --primary-color: #25CED1;
+    --secondary-color: #FCEADE;
+    --accent1-color:#EA526F;
+    --accent2-color: #ff8a5b;
+
+    --heading-font: 'Rock Salt', serif;
+    --paragraph-font: 'Roboto', serif;
+
+    --nav-background-color: #25CED1;
+    --nav-link-color: #fff;
+    --nav-hover-link-color: #FCEADE;
+    --nav-hover-background-color:#ff8a5b;
+    ;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+.background-image {
+    width: 100%;
+    max-height: 600px;
+}
+
+ .hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+    
+  .hero h1 {
+    position: absolute;
+    top: 2%;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    font-family: var(--heading-font);
+    font-size: 36px;
+    color: var(--primary-color);
+    text-align: center;
+    }
+  
+  .hero article {
+    position: absolute;
+    width: 80%;
+    top: 10%;
+    left: 8%;
+    background-color: var(--nav-background-color);
+    padding: 12px;
+    }
+  
+  .hero article p {
+    color: #fff;
+    font-family: var(--paragraph-font);
+    text-align: center;
+  }
+  
+  .hero article img {
+    float: right;
+    height: 180px;
+}
