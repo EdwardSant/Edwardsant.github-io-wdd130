@@ -60,7 +60,7 @@ main {
 }
 
 .hero img {
-    width: 100%;
+    
     height: auto;
 }
 
@@ -80,9 +80,9 @@ main {
 
 article {
   position: absolute;
-  top: 42%;
-  left: 74%;
-  transform: translate(-14%, -44%);
+  top: 25%;
+  left: 10%;
+  right: 10%;
   background-color: var(--nav-background-color);
   padding: 1em;
   text-align: center;
@@ -91,9 +91,10 @@ article {
   }
 
 
-  article img {
+ .hero article img {
     float: right;
-    height: 170px;
+    height: 200px;
+    padding-left: 28px;
 }
 
 
