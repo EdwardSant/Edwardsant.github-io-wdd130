@@ -282,7 +282,7 @@ footer .social img {
 .happy-card {
     margin: 200px 0;
     grid-column: 1/4;
-    grid-row: 5/7;
+    grid-row: 3/6;
     position: relative;
 }
 
@@ -296,8 +296,8 @@ footer .social img {
 
 .rafting-card {
     margin: 200px 0;
-    grid-column: 7/7;
-    grid-row: 3/6;
+    grid-column: 5/8;
+    grid-row: 3/4;
     position: relative;
 }
 
@@ -306,4 +306,28 @@ footer .social img {
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
     width: 210%;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border: 10px solid beige;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+figure img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+figure figcaption {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #114b5f;
+    font-family: "Tajawal", Arial, Helvetica, sans-serif;
 }
