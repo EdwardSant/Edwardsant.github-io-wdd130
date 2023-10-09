@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Edward Santos | WDD130</title>
+  <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+  <h1>Basic HTML and CSS Quiz</h1>
+  <form action="results.php" method="post">
+    <label for="q1">¿What is HTML?</label>
+    <input type="text" name="q1" id="q1" required>
+
+    <label for="q2">¿What is the root element of an HTML document ?</label>
+    <textarea name="q2" id="q2" rows="5" cols="30" required></textarea>
+
+    <label for="q3">¿What is the tag for creating a level 1 header?</label>
+    <select name="q3" id="q3" required>
+      <option value="" selected disabled>Choose one...</option>
+      <option value="h1">h1</option>
+      <option value="h2">h2</option>
+      <option value="h3">h3</option>
+    </select>
+
+    <label for="q4">¿What is the minimun value of an integer CSS?</label>
+    <input type="number" name="q4" id="q4" min="-2147483648" max="2147483647" required>
+
+    <input type="submit" value="Submit Quiz">
+  </form>
+</body>
+</html>
