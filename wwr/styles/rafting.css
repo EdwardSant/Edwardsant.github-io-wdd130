@@ -331,3 +331,32 @@ figure figcaption {
     color: #114b5f;
     font-family: "Tajawal", Arial, Helvetica, sans-serif;
 }
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+}
+
+span.checkA{
+    padding-left: 5px;
+}
+
+button{
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
