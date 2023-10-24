@@ -296,7 +296,7 @@ figure {
 figure img {
     max-width: 100%;
     height: auto;
-    border: 5px solid, beige;
+    border: 5px solid;
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -331,7 +331,7 @@ h2{
 
 .profile img {
     max-width: 100%; 
-    border: 5px solid, beige; 
+    border: 5px solid;
 }
 
 .profile h3 {
